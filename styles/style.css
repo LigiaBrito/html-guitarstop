@@ -2,7 +2,7 @@
 html{
      margin:0;
      padding:0;
-     max-height:426vh;
+     max-height:300vh;
 }
 body{
     margin: 0;
@@ -224,7 +224,7 @@ ul li a{
     background: radial-gradient(circle, rgba(28,122,184,1) 0%, rgba(1,9,20,1) 100%);
     position: relative;
     top: -380px;
-    height: 480px;
+    height: 500px;
     width: 100%;
     text-align: center;
 }
@@ -267,11 +267,4 @@ form button{
     right:550px;
     width: 290px;
     height: 30px;
-}
-
-#rodape{
-    font-family:monospace;
-    padding-top: 18px;
-    padding-bottom: 10px;
-    text-align: justify;
 }
