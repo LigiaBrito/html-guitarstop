@@ -1,0 +1,277 @@
+/* Geral */
+html{
+     margin:0;
+     padding:0;
+     max-height:426vh;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* Homepage */
+#logo{
+    width: 150px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li img{
+    width: 28px;
+    
+}
+
+ul li{
+    float:left;   
+}
+
+ul li a{ 
+    display:block;
+    padding-left: 10px;
+
+}
+
+#corpo{
+    height: 2762px;
+}
+
+#logotipo{
+    width: 200px;
+    position: absolute;
+    top: -6%;
+    left:100;
+}
+
+#redessociais{
+    width: 200px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+#bannerHome{
+    height: 350px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    background-image: url(../images/banner-top-fender.png);
+    color: aliceblue;
+    background-size: cover;
+    margin:0;
+    padding: 0;    
+}
+
+#hrBannerHome{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+}
+
+#textoBannerHome{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 29%;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#tituloHome{
+    position: relative;
+    top: 24%;
+    left: 55.9%;
+    font-size: 210%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/* Sobre nós */
+#SegundoBanner{
+    height: 600px;
+    width: 550px;
+    position: relative;
+    top: 70px;
+    left: 5%;
+    margin-top: 100px;
+    background-image: url(../images/image_l\ \(2\).jpeg);
+    opacity: 0.9;
+    color: aliceblue;
+    background-size: cover;  
+}
+
+#textoSegundoBanner{
+    position: relative;
+    top: 5%;
+    left: 10%;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+#hrSegundoBanner{
+    position: relative;
+    left: -16%;
+    width: 270px;
+}
+
+#sobreNos{
+    height: 200px;
+    width: 600px;
+    position: relative;
+    top: -630px;
+    left: 50%;
+    margin-top: 100px;
+    opacity: 0.9;
+    color:black;       
+}
+
+#tituloSobreNos {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+/* Nossa loja */
+#nossaLojaBanner{
+    height: 600px;
+    width: 550px;
+    position: relative;
+    top: -190px;
+    left: 50%;
+    margin-top: 100px;
+    background-image: url(../images/guitarShop.jpg);
+    opacity: 0.9;
+    color: aliceblue;
+    background-size: cover;   
+}
+
+#textoNossaLoja{
+    position: relative;
+    top: -300px;
+    left: 0%;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;    
+}
+
+#hrNossaLoja{
+    position: relative;
+    left: -5%;
+    width: 270px;
+}
+
+#nossaLoja{
+    height: 200px;
+    width: 600px;
+    position: relative;
+    top: -630px;
+    left: 10%;
+    margin-top: 100px;
+    opacity: 0.9;
+    color:black;         
+}
+
+#tituloNossaLoja {
+    position: relative;
+    top: -260px;
+    left: 20%;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#nossaLojaUl li{
+    padding-bottom: 35px;
+    list-style-type: disc;
+}
+
+/*Nossos Produtos*/
+#tabela{
+    width: 100%;
+}
+#tabela td img{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabela td{
+    padding: 17px;
+}
+
+#nossosProdutos{
+    position: relative;
+    top: -255px;
+    margin-top: 100px; 
+    text-align: center; 
+}
+
+#botaoProduto{
+    width: 13%;
+    height: 40px;
+}
+
+/*Formulario*/
+#formulario {
+    color: aliceblue;
+    background: rgb(28,122,184);
+    background: radial-gradient(circle, rgba(28,122,184,1) 0%, rgba(1,9,20,1) 100%);
+    position: relative;
+    top: -380px;
+    height: 480px;
+    width: 100%;
+    text-align: center;
+}
+
+#formulario input{
+    height: 25px;
+    margin-top: 10px;
+    position: relative;
+    top: 50px;
+    left: -250px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+textarea{
+    margin-top: 10px;
+    position: relative;
+    top: 60px;
+    left: -100px;
+    width: 612px;
+}
+
+#tituloFormulario{
+    margin-top: 10px;
+    position: relative;
+    top: 50px;
+    left: -250px;
+}
+
+#botaoProduto{
+    background-color:#122d5c;
+    color: white;
+}
+
+form button{
+    margin-top: 10px;
+    position: relative;
+    top: 82px;
+    right:550px;
+    width: 290px;
+    height: 30px;
+}
+
+#rodape{
+    font-family:monospace;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    text-align: justify;
+}

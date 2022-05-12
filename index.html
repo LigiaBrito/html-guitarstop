@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>GuitarStop</title>
+</head>
+<body>
+    <section id="cabecalho">
+        <div id="logotipo">
+            <img id="logo" src="images/logo.png" alt="logo do guitar shop">
+        </div>
+        <div id="redessociais">
+            <nav>
+                <ul>
+                    <li> <a href=""><img src="images/email.png" alt="logotipo de email"></a></li>
+                    <li> <a href=""><img src="images/facebook-logo.png" alt="logotipo de facebook"></a></li>
+                    <li> <a href=""><img src="images/instagram.png" alt="logotipo de instagram"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="bannerHome">
+            <h1 id="tituloHome">Bem vindo ao GuitarStop</h1>
+            <h3 id="textoBannerHome">
+                <hr id="hrBannerHome">
+                Ache as melhores guitarras e acessórios 
+                <br>para sua banda e eleve sua carreira musical
+            </h3>
+        </div>
+    </section>
+    <section id="corpo">
+        <div id="SegundoBanner"></div>
+        <div id="sobreNos">
+            <h1 id="tituloSobreNos">Conheça nossas guitarras 
+                <br>e mostre seu talento
+            </h1> 
+            <h3 id="textoSegundoBanner">
+                <br><hr id="hrSegundoBanner"> Na GuitarStop é uma das maiores lojas especilizadas em venda 
+                <br>de guitarras em parceria com marcas como Fender,Gibson e Ibanez. 
+                <br><br>Os produtos são enviados para todo Brasil
+                <br>com prazo de entrega de até 1 semana com toda segurança possível
+                <br><br>GuitarStop é a loja de instrumento mais visitada por artista nacionais e internarcionais então se 
+                você trombar com o seu idolo durante uma visita em nossa loja não esqueça de tirar uma foto ;)
+            </h3>
+        </div>
+        <div id="nossosProdutos">
+            <h1>Nossos produtos</h1> 
+            <table id="tabela">
+                <tr>
+                    <th>Guitarras Fender</th>
+                    <th>Guitarras Gibson</th>
+                    <th>Guitarras Ibanez</th>
+                </tr>
+                <tr>
+                    <td><img src="images/14.webp" alt="guitarra branca fender stratocaster"></td>
+                    <td><img src="images/3.jpg" alt="guitarra preta flying v gibson"></td>
+                    <td><img src="images/19.webp" alt="guitarra degrade laranja vermelho ibanez"></td>
+                </tr>
+                <tr>
+                    <td>Os instrumentos Icônicos da Fender são conhecidos mundialmente como os instrumentos que iniciaram a revolução do rock.</td>
+                    <td>Décadas embalando os maiores clássicos do rock com Les Paul, SG, Flying V e muito mais. As guitarras mais famosas do mundo!</td>
+                    <td>Ibanez é uma fabricante japonesa de guitarras tendo como dono Hoshino Gakki. <br>Escolhida por Steve Vai,Joe Satriani entre outros </td>
+                </tr>
+                <tr>
+                    <th>Amplificadores</th>
+                    <th>Pedais</th>
+                    <th>Outros Acessórios</th>
+                </tr>
+                <tr>
+                    <td><img src="images/7.jpg" alt="amplificador preto marshall"></td>
+                    <td><img src="images/dis.jpg" alt="pedal azul"></td>
+                    <td><img src="images/EP1610SSI_1.png" alt="cabo de guitarra"></td>
+                </tr>
+                <tr>
+                    <td>Os melhores amplificadores para aumentar a potência do seu som</td>
+                    <td>Pedais de diversas marcas com diversos efeitos</td>
+                    <td>Variários acessórios para dar um boost no seu instrumento e carreira profissional</td>
+                </tr>
+            </table>
+            <a href="#formulario"><button id="botaoProduto">Conheça nossos produtos</button></a>
+        </div>
+
+        <!--NOSSA LOJA-->
+        <div id="nossaLojaBanner"></div>
+            <div id="nossaLoja">
+            <h1 id="tituloNossaLoja"> Nossa Loja </h1> 
+                <h3 id="textoNossaLoja">
+                <br><hr id="hrNossaLoja"> 
+                <ul id="nossaLojaUl">
+                    <li>Localizada em Campinas</bold><br> na rua: R. Dr. César Bierrembach, 209 - Centro, Campinas - SP, 13020-025. <br> Perto da Prefeitura</li>
+                    <li>Maior Loja de guitarras da américa latina<br>guitar shop recebeu o premio de maior loja de guitarras da américa latina</li> 
+                    <li>Interior da loja<br>os instrumentos ficam disponiveis para uso expostos em uma parede de 20 metros e cercadas por led para uma aparência mais moderna e mais proximas da estética de shows</li>
+                </ul> 
+                
+            </h3>
+        </div>
+        <form action="POST" id="formulario">        
+            <h1 id="tituloFormulario">Receba mais informações no seu email sobre os produtos da GuitarShop</h1>
+            <input type="text" name="nome" id="" placeholder="Nome" pattern="[a-z\s]+$" required>
+            <input type="text" name="sobrenome" id="" placeholder="Sobrenome" pattern="[a-z\s]+$" required>
+            <br>
+            <input type="email" name="email" id="" placeholder="Email" required>
+            <input type="tel" name="telefone" id="" placeholder="Telefone" pattern 
+            ="[0-9]+$" title = "Digite apenas números" required>
+            <br>
+            <textarea name="" id="" cols="71" rows="15" placeholder="Informações adicionais"></textarea>
+            <button>Enviar</button> 
+    </form>
+    </section>
+    <section id="rodape">
+        <p>@ 2021 GUITARSHOP. ALL RIGHTS RESERVED. <br> GET A LANDING PAGE LIKE THIS FROM LIGIA</p>
+    </section>
+</body>
+</html>
